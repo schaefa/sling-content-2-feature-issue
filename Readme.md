@@ -11,7 +11,10 @@ Archetype (1.0.1-SNAPSHOT) with the bundle embedded and
 example merge option.
 
 Then it was built and deployed onto Sling to verify that
-both the package and bundle is deployed successfully.
+both the package and bundle is deployed successfully:
+```
+mvn clean install -P autoInstallPackage
+```
 
 ## Conversion
 
