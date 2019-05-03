@@ -1,0 +1,13 @@
+{
+  "id":"com.madplanet.sling.cp2sf:ui.apps:slingosgifeature:1.0.0-SNAPSHOT",
+  "description":"This is an empty JCR Package where the JCR Content\n        can be deployed with.",
+  "bundles":[
+    {
+      "id":"commons-lang:commons-lang:2.6",
+      "start-order":"20"
+    }
+  ],
+  "content-packages:ARTIFACTS|true":[
+    "com.madplanet.sling.cp2sf:ui.apps:zip:cp2fm-converted:1.0.0-SNAPSHOT"
+  ]
+}
